@@ -17,7 +17,7 @@ export class AppComponent {
                       { name : 'Online Order Responsive Redesign', tech: 'SASS, HTML5, KnockoutJS'},
                       { name : 'Timed Guaranteed Product Delivery', tech: 'JQuery, SASS, HTML5'},
                       { name : 'New Payment Gateway', tech: 'C# Web Api'},
-                      { name : 'SMS ordering', tech: 'C# Web Api'},]
+                      { name : 'SMS ordering', tech: 'C#, Web Api, Rest'},]
         },
         {
           title: 'Mar 2014 - Jan 2015   Axial Group Ltd',
