@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="heading">
+    <h1>
+      {{title}}
+    </h1>
+    <h1>
+      {{note}}
+    </h1>
+    <p>
+      This site is for DEMO only. It is built with <strong> AngularJS </strong>. <br> 
+      The high light for this project: <br>
+      <strong>Latest Angular and CLI<br>
+      Boostrap <br>
+      Yarn instead of npm as package manger, Yarn provides FAST, RELIABLE, AND SECURE DEPENDENCY MANAGEMENT </strong><br>
+    </p>
+    <p>
+      Build Pipline Flow: <br>
+      <strong> Automate Test and Deployment from Git hub to CodeShip to Azure Cloud Web App.</strong>
+    </p>
+  </div>
+  <div class="row">
+    <div class="col-md-12"><h3>Work Experience</h3></div>
+  </div>
+<squeezebox [multiple]="false">
+  <sb-item  *ngFor="let item of itemsList">
+      <sb-item-head>{{item.title}}</sb-item-head>
+      <sb-item-body>
+        <div class="row">
+          <div class="col-md-4"> 
+            <h4>Project</h4>
+            </div>
+          <div class="col-md-8">
+            <h4>Technology</h4>
+          </div>
+        </div>
+        <div bg-primary text-white class="row"  
+        *ngFor="let project of item.projects, let index=index; let odd=odd; let even=even;"
+        [ngClass]="{ odd: odd, even: even }">
+          <div class="col-md-4"> 
+            {{project.name}}
+            </div>
+          <div class="col-md-8">
+            {{project.tech}}
+          </div>
+        </div>
+      </sb-item-body>
+  </sb-item>
+</squeezebox>
+  
+</div>
+

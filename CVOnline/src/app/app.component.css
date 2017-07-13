@@ -1,0 +1,16 @@
+.heading{
+    text-align:center;
+}
+
+.even{ 
+        padding: 1%;
+        background-color: lightblue;      
+        border: 1px solid black; 
+        
+    }
+.odd{ 
+        padding: 1%;
+        background-color:lightgreen;
+        order: 1px solid black;
+         
+    }
