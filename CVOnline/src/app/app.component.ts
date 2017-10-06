@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Eric Zhao e-Resume';
-  //note = 'Accenture and ATO is Awsome';
+  note = 'Test';
 
    private itemsList:Object[] = [
         {
