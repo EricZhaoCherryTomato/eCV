@@ -6,28 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Eric Zhao e-Resume';
+  title = 'Test e-Resume';
   //note = 'I am here with the brilliant guys at TSWG!';
 
    private itemsList:Object[] = [
         {
-          title: 'Jan 2015 - Current   Domino’s Pizza Enterprise',
-          projects: [ { name : 'Dominos Team App', tech: 'Angular, TypeScript, Gulp, AWS, C# Web Api, Autofac DI'},
-                      { name : 'Star Rating', tech: 'KnockoutJS, AJAX, CSS'},
-                      { name : 'Online Order Responsive Redesign', tech: 'SASS, HTML5, KnockoutJS'},
-                      { name : 'Timed Guaranteed Product Delivery', tech: 'JQuery, SASS, HTML5'},
-                      { name : 'New Payment Gateway', tech: 'C# Web Api'},
-                      { name : 'SMS ordering', tech: 'C#, Web Api, Rest'},]
-        },
+          title: 'Jan 2015 - Test One',
+          projects: [ { name : 'App', tech: 'Angular, TypeScript, Gulp, AWS, C# Web Api, Autofac DI'},
+                      { name : 'Project', tech: 'KnockoutJS, AJAX, CSS'},
         {
-          title: 'Mar 2014 - Jan 2015   Axial Group Ltd',
+          title: 'Mar 2014 - Jan 2015 Test Two',
           projects: [ { name : 'Internal and Public website', tech: 'JQuery HTML5'},
-                      { name : 'Student Enrollment System', tech: 'JQuery CSS HTML5'},
-                      { name : 'Purchase Order System', tech: 'JQuery CSS HTML5'}]
         },
         {
-          title: 'Dec 2012 - Mar 2014   Zidea Robot Co. Ltd',
-          projects: [ { name : 'Smart Warehouse', tech: 'VS2010, C#, WinForm, MSSQL 2008'}
+          title: 'Dec 2012 - Mar 2014   Test Three',
+          projects: [ { name : 'Smart App', tech: 'VS2010, C#, WinForm, MSSQL 2008'}
                     ]
         }
     ]
