@@ -20,7 +20,7 @@ export class AppComponent {
         },
         {
           title: 'Dec 2012 - Mar 2014   Test Three',
-          projects: [ { name : 'Smart App', tech: 'VS2010, C#, WinForm, MSSQL 2008'}
+          projects: [ { name : 'Smart App', tech: 'VS2010, C#'}
                     ]
         }
     ]
