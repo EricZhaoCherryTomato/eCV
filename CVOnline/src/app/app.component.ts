@@ -15,12 +15,15 @@ export class AppComponent {
                       { name : 'App', tech: 'Angular, TypeScript, Gulp, AWS, C# Web Api, Autofac DI'},
                       { name : 'Project', tech: 'KnockoutJS, AJAX, CSS'}
                     ]
+        },
+     
         {
           title: 'Mar 2014 - Jan 2015 Test Two',
           projects: [ 
                       { name : 'Internal and Public website', tech: 'JQuery HTML5'}
                     ]
         },
+     
         {
           title: 'Dec 2012 - Mar 2014   Test Three',
           projects: [ 
